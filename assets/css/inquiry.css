@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+.main {
+  background-color: #f6f8f9;
+}
+.section-top__image {
+  height: 200px;
+  background-image: url("../images/common/mountain04.jpg");
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.section-top__image-filter {
+  height: 100%;
+  width: 100%;
+  padding-top: 80px;
+  background-color: rgba(0, 0, 0, 0.30);
+}
+.section-top h2 {
+  color: #FFF;
+  font-size: 2.0rem;
+}
+@media (min-width: 960px) {
+  .section-top__image {
+    height: 600px;
+  }
+  .section-top__image-filter {
+    padding-top: 210px;
+  }
+  .section-top h2 {
+    font-size: 4.0rem;
+  }
+}
+.inquiry-form {
+  padding: 50px 24px 60px 24px;
+  text-align: left;
+}
+.inquiry-form p {
+  margin-bottom: 40px;
+}
+.inquiry-form input[type="text"], .inquiry-form input[type="email"], .inquiry-form select, .inquiry-form textarea {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border: solid 1px #777;
+}
+.inquiry-form textarea {
+  height: 300px;
+}
+.inquiry-form p label {
+  font-weight: 600;
+  font-size: 2.0rem;
+  display: block;
+  margin-bottom: 20px;
+}
+.inquiry-form p label.small-label {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.6rem;
+  padding-left: 30px;
+}
+.inquiry-form__privacy-link {
+  color: #333;
+}
+.inquiry-form__submit {
+  display: block;
+  height: 48px;
+  max-width: 320px;
+  width: 100%;
+  background-color: #004bb1;
+  color: #FFF;
+  font-size: 2.4rem;
+  border-radius: 48px;
+}
+@media (min-width: 960px) {
+  .inquiry-form {
+    padding: 120px 24px;
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  .inquiry-form p label {
+    display: inline-block;
+    width: 260px;
+    vertical-align: top;
+    font-weight: 600;
+  }
+  .inquiry-form__contact_method {
+    display: inline-block;
+  }
+  .inquiry-form input[type="text"], .inquiry-form input[type="email"], .inquiry-form select, .inquiry-form textarea {
+    display: inline-block;
+    width: 400px;
+  }
+  .inquiry-form textarea {
+    width: 600px;
+    height: 450px;
+  }
+  .inquiry-form__privacy {
+    margin-left: 260px;
+  }
+  .inquiry-form__submit {
+    margin: 0 auto;
+  }
+}

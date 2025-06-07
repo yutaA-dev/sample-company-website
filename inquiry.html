@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <meta name="description" content="Have questions? Sample Company is here to help. Get in touch with us through this contact form.">
+  <meta property="og:title" content="Sample Company - Contact Us"/>
+  <meta property="og:site_name" content="Sample Company">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en-UK">
+  <meta property="og:image" content="assets/images/common/ogp.jpg">
+  <meta property="og:description" content="Have questions? Sample Company is here to help. Get in touch with us through this contact form."/>
+  <meta name="twitter:card" content="summary" />
+  <title>Sample Company - Contact</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/inquiry.css">
+  <link href="assets/images/common/favicon.ico" rel="icon" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="assets/images/common/apple-touch-icon.png">
+</head>
+<body>
+<header class="header">
+  <div class="header-content-wrapper">
+    <h1><a href="index.html">Sample Company</a></h1>
+    <div id="open-button" class="open-button"><span></span></div>
+    <nav>
+      <div id="close-button" class="close-button">x</div>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="news_list.html">News</a></li>
+        <li><a href="inquiry.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="main">
+  <section class="section-top">
+    <div class="section-top__image">
+      <div class="section-top__image-filter">
+        <h2>Contact Us</h2>
+      </div>
+    </div>
+  </section>
+  <form class="inquiry-form" action="inquiry.html">
+    <p>
+      <label for="form_name">Your Name</label>
+      <input id="form_name" type="text" placeholder="Enter your name">
+    </p>
+    <p>
+      <label>Preferred Contact Method</label>
+      <span class="inquiry-form__contact_method">
+        <input id="form_reply_method_1" type="radio" name="form_reply_method">
+        <label class="small-label" for="form_reply_method_1">Call me back</label><br>
+        <input id="form_reply_method_2" type="radio" name="form_reply_method">
+        <label class="small-label" for="form_reply_method_2">Email me back</label>
+      </span>
+    </p>
+    <p>
+      <label for="form_email">Email Address</label>
+      <input id="form_email" type="email" placeholder="Enter your email">
+    </p>
+    <p>
+      <label>Inquiry Type</label>
+      <select id="form_inquiry_kind">
+        <option value="">Please select</option>
+        <option value="services">Questions about our services</option>
+        <option value="others">Other inquiries</option>
+      </select>
+    </p>
+    <p>
+      <label for="form_inquiry_deatail">Message</label>
+      <textarea id="form_inquiry_deatail" placeholder="Enter your message here"></textarea>
+    </p>
+    <p>
+      <input class="inquiry-form__privacy" id="form_privacy" type="checkbox">
+      <label class="small-label" for="form_privacy">
+        I agree to the <a class="inquiry-form__privacy-link" href="">Privacy Policy</a>
+      </label>
+    </p>
+    <input class="inquiry-form__submit" type="submit" value="Submit">
+  </form>
+</main>
+<footer class="footer">
+  <div class="footer__content-wrapper">
+    <nav class="site-map">
+      <ul class="site-map__main-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="news_list.html">News</a></li>
+        <li><a href="inquiry.html">Contact</a></li>
+      </ul>
+      <ul class="site-map__service-links">
+        <li><a href="#">Sports Gear Division</a></li>
+        <li><a href="#">Supplement Division</a></li>
+        <li><a href="#">SDGs Initiatives</a></li>
+      </ul>
+    </nav>
+    <small class="footer__copyright">© 2025 Sample Company Ltd.</small>
+  </div>
+</footer>
+</body>
+</html>

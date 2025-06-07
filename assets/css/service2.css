@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+.section-shop {
+  padding: 60px 0px 0px;
+  background-color: #FFF;
+}
+.section-shop h2 {
+  font-size: 3.0rem;
+  padding-bottom: 65px;
+}
+.section-shop ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1160px;
+  margin: 0 24px;
+}
+.section-shop__item-list li {
+  padding-bottom: 60px;
+  width: 250px;
+  margin: 0 auto;
+}
+.section-shop img {
+  width: 178px;
+  height: 178px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 500px;
+  margin: 0 auto 30px;
+}
+.section-shop h3 {
+  font-size: 2.4rem;
+  margin-bottom: 25px;
+}
+.section-shop a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.section-shop__video {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 60px;
+  vertical-align: bottom;
+}
+@media(min-width:1160px) {
+  .section-shop {
+    background-color: #f6f8f9;
+    padding-top: 100px;
+  }
+  .section-shop__content-wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  .section-shop h2 {
+    font-size: 3.5rem;
+    padding-bottom: 70px;
+  }
+  .section-shop img {
+    margin-bottom: 35px;
+  }
+  .section-shop__item-list li {
+    padding-bottom: 90px;
+  }
+  .section-shop__video {
+    margin-bottom: 90px;
+  }
+}
+.section-red, .section-blue, .section-green, .section-orange {
+  background-color: #FFF;
+}
+.section-red img, .section-blue img, .section-green img, .section-orange img {
+  width: 100%;
+  vertical-align: bottom;
+  object-fit: cover;
+}
+.section-red__description, .section-blue__description, .section-green__description, .section-orange__description {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.section-red__description h3, .section-blue__description h3, .section-green__description h3, .section-orange__description h3 {
+  vertical-align: top;
+  font-size: 3.0rem;
+  padding-bottom: 20px;
+}
+.section-red__description p, .section-blue__description p, .section-green__description p, .section-orange__description p {
+  font-size: 1.5rem;
+  line-height: 30px;
+  font-weight: 500;
+}
+@media(min-width:1160px) {
+  .section-red, .section-blue, .section-green, .section-orange {
+    background-color: #f6f8f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 350px;
+  }
+  .section-blue, .section-orange {
+    flex-flow: row-reverse;
+  }
+  .section-red__visual, .section-blue__visual, .section-green__visual, .section-orange__visual {
+    width: 50vw;
+    margin: 0;
+  }
+  .section-red img, .section-blue img, .section-green img, .section-orange img {
+    height: 100%;
+  }
+  .section-red__description, .section-blue__description, .section-green__description, .section-orange__description {
+    text-align: left;
+    padding: 60px 0 0 60px;
+    width: 50vw;
+  }
+  .section-red__description h3, .section-blue__description h3, .section-green__description h3, .section-orange__description h3 {
+    font-size: 6.0rem;
+    line-height: 60px;
+    padding-bottom: 40px;
+  }
+  .section-red__description p, .section-blue__description p, .section-green__description p, .section-orange__description p {
+    font-size: 2.4rem;
+    line-height: 40px;
+    font-weight: 600;
+  }
+}
+.section-shop__again {
+  padding: 60px 24px 20px;
+  background-color: #FFF;
+}
+.section-shop__again h2 {
+  font-size: 3.0rem;
+  padding-bottom: 65px;
+}
+.section-shop__again__item-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.section-shop__again__item-list li {
+  padding-bottom: 60px;
+  width: 250px;
+  margin: 0 auto;
+}
+.section-shop__again img {
+  width: 178px;
+  height: 178px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 500px;
+  margin: 0 auto 30px;
+}
+.section-shop__again h3 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+.section-shop__again a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+@media(min-width:1160px) {
+  .section-shop__again {
+    background-color: #f6f8f9;
+    padding: 90px 0 120px 0;
+  }
+  .section-shop__again h2 {
+    font-size: 3.5rem;
+    padding-bottom: 70px;
+  }
+  .section-shop__again img {
+    margin-bottom: 35px;
+  }
+}
