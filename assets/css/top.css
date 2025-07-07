@@ -161,7 +161,14 @@
     justify-content: space-between;
   }
   .section-services ul li {
+    flex: 1;
     margin: 0;
+    background-color: #FFF;
+    border-radius: 6px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .section-services ul li:first-child{
     margin-right: 40px;
