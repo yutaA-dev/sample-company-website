@@ -3,7 +3,7 @@
 A multi-page static corporate website designed with HTML and CSS.  
 Built as a realistic mockup to showcase frontend and UI skills.
 
-🔗 **Live demo**: https://yutasyntax.github.io/sample-company-website/
+🔗 **Live demo**: https://yutaa-dev.github.io/sample-company-website/
 
 ## Pages
 
